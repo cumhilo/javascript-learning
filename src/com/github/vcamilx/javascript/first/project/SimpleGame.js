@@ -21,7 +21,7 @@ switch (userOption) {
                 console.log(`You win, your opponent drew ${botRespone}`);
                 break;
             case "rock":
-                console.log(`Tie!, your opponent drew ${botRespone}`)
+                console.log(`Tie!, your opponent drew ${botRespone}`);
                 break;
         }
         break;
