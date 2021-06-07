@@ -9,40 +9,37 @@ var botRespone = options[Math.round(Math.random() * options.length)];
 var userOption = prompt(
     "What do you want to choose? Rock | Paper | Scissors",
     "Your choice."
-)
+).toLowerCase();
 
-var userResponse = userOption.toLowerCase();
+switch (userOption) {
+    case "rock":
+        switch (botRespone) {
+            case "paper":
+                console.log(`You lost, your opponent drew ${botRespone}`);
+                break;
+            case "scissors":
+                console.log(`You win, your opponent drew ${botRespone}`);
+                break;
+            default:
+                console.log(`Tie!, your opponent drew ${botRespone}`)
+                break;
+        }
+        break;
+    case "paper":
+        switch (botRespone) {
+            case "paper":
+                console.log(`Tie!, your opponent drew ${botRespone}`)
+                break;
+            case "scissors":
+                console.log(`You lost, your opponent drew ${botRespone}`);
+                break;
+            default:
+                console.log(`You win, your opponent drew ${botRespone}`);
+                break;
+        }
+        break;
 
-switch (userResponse) {
-    case "rock": {
-        switch (botRespone) {
-            case "paper":
-                console.log(`You lost, your opponent drew ${botRespone}`);
-                break;
-            case "scissors":
-                console.log(`You win, your opponent drew ${botRespone}`);
-                break;
-            default:
-                console.log(`Tie!, your opponent drew ${botRespone}`)
-                break;
-        }
-        break;
-    }
-    case "paper": {
-        switch (botRespone) {
-            case "paper":
-                console.log(`Tie!, your opponent drew ${botRespone}`)
-                break;
-            case "scissors":
-                console.log(`You lost, your opponent drew ${botRespone}`);
-                break;
-            default:
-                console.log(`You win, your opponent drew ${botRespone}`);
-                break;
-        }
-        break;
-    }
-    case "scissors": {
+    case "scissors":
         switch (botRespone) {
             case "paper":
                 console.log(`You win, your opponent drew ${botRespone}`);
@@ -55,9 +52,7 @@ switch (userResponse) {
                 break;
         }
         break;
-    }
-    default: {
-        console.log("You cannt do that, select an valid option")
+    default:
+        console.log("You cannt do that, select an valid option");
         break;
-    }
 }
