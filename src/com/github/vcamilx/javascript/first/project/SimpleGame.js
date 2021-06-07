@@ -1,12 +1,12 @@
-var options = [
+const options = [
     "rock",
     "paper",
     "scissors"
 ];
 
-var botRespone = options[Math.round(Math.random() * options.length)];
+let botRespone = options[Math.round(Math.random() * options.length)];
 
-var userOption = prompt(
+let userOption = prompt(
     "What do you want to choose? Rock | Paper | Scissors",
     "Your choice."
 ).toLowerCase();
