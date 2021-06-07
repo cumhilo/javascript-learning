@@ -1,4 +1,4 @@
-![Logo](resources/Logo.png)
+![Logo](resources/Logo.svg)
 
 # Welcome to my javascript learning project
 
