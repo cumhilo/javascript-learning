@@ -28,7 +28,7 @@ switch (userOption) {
     case "paper":
         switch (botRespone) {
             case "paper":
-                console.log(`Tie!, your opponent drew ${botRespone}`)
+                console.log(`Tie!, your opponent drew ${botRespone}`);
                 break;
             case "scissors":
                 console.log(`You lost, your opponent drew ${botRespone}`);
