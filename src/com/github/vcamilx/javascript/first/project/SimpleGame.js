@@ -20,7 +20,7 @@ switch (userOption) {
             case "scissors":
                 console.log(`You win, your opponent drew ${botRespone}`);
                 break;
-            default:
+            case "rock":
                 console.log(`Tie!, your opponent drew ${botRespone}`)
                 break;
         }
@@ -33,7 +33,7 @@ switch (userOption) {
             case "scissors":
                 console.log(`You lost, your opponent drew ${botRespone}`);
                 break;
-            default:
+            case "rock":
                 console.log(`You win, your opponent drew ${botRespone}`);
                 break;
         }
@@ -47,12 +47,12 @@ switch (userOption) {
             case "scissors":
                 console.log(`Tie!, your opponent drew ${botRespone}`)
                 break;
-            default:
+            case "rock":
                 console.log(`You lost, your opponent drew ${botRespone}`);
                 break;
         }
         break;
     default:
-        console.log("You cannt do that, select an valid option");
+        console.error("You cannt do that, select an valid option");
         break;
 }
