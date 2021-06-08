@@ -1,6 +1,4 @@
-
 <!-- Header -->
-
 <h3 align="center">JavaScript Learning</h3>
 
 ```javascript
@@ -13,7 +11,6 @@ let information = {
 ---
 
 <!-- Information -->
-
 # Welcome to my javascript learning project
 
 This period will be divided in stages, I will do several simultaneous projects in the same repository, so I can keep track of my learning and what I have learned new about it.
