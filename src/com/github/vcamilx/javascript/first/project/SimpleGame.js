@@ -46,7 +46,7 @@ function startGame() {
             alert(messages.win);
             return;
         }
-    };
+    }
 
     alert(messages.tie);
 }
