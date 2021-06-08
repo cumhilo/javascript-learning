@@ -25,9 +25,9 @@ let user = function createUser() {
         case "scissors":
             return { name: name, option: options[2] };
         default:
-            return alert(`${result} isn't an valid option!`);;
-    };
-}
+            return alert(`${result} isn't an valid option!`);
+    }
+};
 
 const player = user();
 
@@ -48,7 +48,7 @@ function startGame() {
         }
     };
 
-    return alert(messages.tie);
+    alert(messages.tie);
 };
 
 startGame();
