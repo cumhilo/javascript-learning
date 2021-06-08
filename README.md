@@ -1,4 +1,20 @@
-![Logo](resources/Logo.svg)
+
+---
+
+<h3 align="center">JavaScript Learning</h3>
+
+```javascript
+let information = {
+    author: [ name = "Camilo", age = 15, country = "Colombia" ],
+    project: [ name = "JavaScript Learning", startDate = "07/06/2021", finishDate = undefined ]
+}
+```
+
+---
+
+<!-- JavaScript logo -->
+
+<img src="resources/Logo.svg" align="center" />
 
 # Welcome to my javascript learning project
 
