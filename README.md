@@ -1,3 +1,8 @@
+<!-- Badges -->
+<a href="https://www.codacy.com/gh/vCamilx/javascript-learning/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vCamilx/javascript-learning&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/694da0f756bd4630b315453165e03498"/></a>
+
+---
+
 <!-- Header -->
 <h3 align="center">JavaScript Learning</h3>
 
@@ -9,8 +14,6 @@ let information = {
 ```
 
 ---
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/92776bb517424d7c9a2a9c630b98c8d3)](https://app.codacy.com/gh/vCamilx/javascript-learning?utm_source=github.com&utm_medium=referral&utm_content=vCamilx/javascript-learning&utm_campaign=Badge_Grade_Settings)
 
 <!-- Information -->
 # Welcome to my javascript learning project
