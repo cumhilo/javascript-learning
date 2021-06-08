@@ -1,4 +1,4 @@
-const options = [
+let options = [
     rock = { type: "rock", win: "scissors", lost: "paper" },
     paper = { type: "paper", win: "rock", lost: "scissors" },
     scissors = { type: "scissors", win: "paper", lost: "scissors" }
@@ -49,6 +49,6 @@ function startGame() {
     };
 
     alert(messages.tie);
-};
+}
 
 startGame();
