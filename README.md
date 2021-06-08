@@ -1,4 +1,6 @@
 
+<!-- Header -->
+
 ---
 
 <h3 align="center">JavaScript Learning</h3>
@@ -12,9 +14,7 @@ let information = {
 
 ---
 
-<!-- JavaScript logo -->
-
-<img src="resources/Logo.svg" align="center" />
+<!-- Information -->
 
 # Welcome to my javascript learning project
 
@@ -27,3 +27,5 @@ Well, it is for a simple reason, which is that I want to get a little more into 
 ### How long will this process take?
 
 Since I already have programming knowledge, I don't think it will take me much longer than with my first "programming language" I learned, which is java, but I estimate that it will take about 3 months or so.
+
+---
