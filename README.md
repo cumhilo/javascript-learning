@@ -10,6 +10,8 @@ let information = {
 
 ---
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/92776bb517424d7c9a2a9c630b98c8d3)](https://app.codacy.com/gh/vCamilx/javascript-learning?utm_source=github.com&utm_medium=referral&utm_content=vCamilx/javascript-learning&utm_campaign=Badge_Grade_Settings)
+
 <!-- Information -->
 # Welcome to my javascript learning project
 
