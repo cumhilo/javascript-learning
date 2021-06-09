@@ -1,10 +1,10 @@
-let options = [
+const options = [
     rock = { type: "rock", win: "scissors", lost: "paper" },
     paper = { type: "paper", win: "rock", lost: "scissors" },
-    scissors = { type: "scissors", win: "paper", lost: "scissors" }
+    scissors = { type: "scissors", win: "paper", lost: "rock" }
 ];
 
-let cpu = { name: "CPU", option: options[Math.round(Math.random() * options.length)] };
+const cpu = { name: "CPU", option: options[Math.floor(Math.random() * options.length)] };
 
 let user = function createUser() {
     const name = prompt(
@@ -38,17 +38,14 @@ const messages = {
 };
 
 function startGame() {
-    if (!(player.option.type === cpu.option.type)) {
+    if (player.option.type !== cpu.option.type) {
         if (cpu.option.type === player.option.lost) {
-            alert(messages.lost);
-            return;
+            return alert(messages.lost);
         } else {
-            alert(messages.win);
-            return;
+            return alert(messages.win);
         }
     }
-
-    alert(messages.tie);
+    return alert(messages.tie);
 }
 
 startGame();
